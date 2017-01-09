@@ -1,0 +1,11 @@
+Uuid: 64060217b1d84abfa14b01edf3a29817
+ExtensionType: 1
+Name: HTML5 Auditor
+ScreenVersion: 1.0
+SerialVersion: 1
+MinPlatformVersion: 0
+ProOnly: True
+Author: Cole Thompson
+ShortDescription: Scans for usage of risky HTML5 features.
+EntryPoint: build/libs/html5-auditor-all.jar
+BuildCommand: gradle -PburpJar=$BURP_JAR fatJar
