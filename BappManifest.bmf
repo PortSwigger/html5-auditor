@@ -8,4 +8,4 @@ ProOnly: True
 Author: Cole Thompson
 ShortDescription: Scans for usage of risky HTML5 features.
 EntryPoint: build/libs/html5-auditor-all.jar
-BuildCommand: gradle -PburpJar=$BURP_JAR fatJar
+BuildCommand: gradle fatJar
