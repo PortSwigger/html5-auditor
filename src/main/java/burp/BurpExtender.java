@@ -32,10 +32,10 @@ public class BurpExtender implements IBurpExtender, IScannerCheck {
 
 	public BurpExtender() {
 
-		html5worries.add(new HTML5Worry("localStorage.", "HTML5 concern: client storage", "_detail_", "Information",
+		html5worries.add(new HTML5Worry("localStorage.", "HTML5 concern: client local storage", "_detail_", "Information",
 				LOCAL_STORAGE_BACKGROUND, LOCAL_STORAGE_REMEDIATION));
 
-		html5worries.add(new HTML5Worry("sessionStorage.", "HTML5 concern: client storage", "_detail_", "Information",
+		html5worries.add(new HTML5Worry("sessionStorage.", "HTML5 concern: client session storage", "_detail_", "Information",
 				SESSION_STORAGE_BACKGROUND, SESSION_STORAGE_REMEDIATION));
 
 		html5worries.add(new HTML5Worry("location.getCurrentPosition(", "HTML5 concern: geolocation", "_detail_", "Information",
